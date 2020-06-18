@@ -4,7 +4,7 @@ export const toggleCartHidden = () => ({
     type: TOGGLE_CART_HIDDEN
 })
 
-export const addItem = (payload) => ({
+export const addItem = (item) => ({
     type: ADD_ITEM,
-    payload
+    payload:item
 })
