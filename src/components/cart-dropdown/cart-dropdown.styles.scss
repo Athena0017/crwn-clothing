@@ -17,6 +17,12 @@
     flex-direction: column;
     overflow: scroll;
   }
+  .empty-cart{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
 
   button {
     margin-top: auto;
