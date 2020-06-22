@@ -1,4 +1,5 @@
-const SHOP_DATA = [{
+const initialState = {
+    collections: [{
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -238,6 +239,12 @@ const SHOP_DATA = [{
       }
     ]
   }
-];
+]
+}
 
-export default SHOP_DATA;
+export default (state = initialState, { type}) => {
+    switch (type) {
+    default:
+        return state
+    }
+}
