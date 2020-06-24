@@ -13,8 +13,9 @@ const StripeCheckoutButton = ({ price }) => {
         <StripeCheckout
             label="Pay Now"
             name="CRWN Clothng Ltd."
-            billingAddress
-            shippingAddress
+            billingAddress={false}
+            shippingAddress={false}
+            zipCode={false}
             image = "https://stripe.com/img/documentation/checkout/marketplace.png"
             description={`Your total is $${price}`}
             amount={priceForStripe}
