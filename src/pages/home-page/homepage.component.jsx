@@ -7,10 +7,11 @@ const HomePage = () => {
   return (
     <div className="homepage">
           <Directory>
-              <MenuItem/>
+              <MenuItem  />
       </Directory>
     </div>
   );
 };
+
 
 export default HomePage;

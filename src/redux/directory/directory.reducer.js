@@ -8,19 +8,20 @@ const initialState = {
       linkUrl: "hats",
     },
     {
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
-      size: "large",
-      id: 2,
-      linkUrl: "jackets",
-    },
-    {
       title: "sneakers",
       imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
       size: "large",
-      id: 3,
+      id: 2,
       linkUrl: "sneakers",
     },
+    {
+      title: "jackets",
+      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      size: "large",
+      id: 3,
+      linkUrl: "jackets",
+    },
+    
     {
       title: "womens",
       imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
